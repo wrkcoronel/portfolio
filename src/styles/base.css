@@ -90,6 +90,11 @@ ul {
 }
 
 @media (max-width: 768px) {
+  :root {
+    --layout-inline: clamp(1rem, 5vw, 1.5rem);
+    --header-height: 7.5rem;
+  }
+
   .app-main {
     padding-top: calc(4.5rem + var(--header-height));
   }
